@@ -1,0 +1,139 @@
+I request CVE IDs for 22 discovered vulnerabilities in Virtuoso 7.2.12. I deeply appreciate your taking on my requests.
+
+The common information of these bugs is as follows:
+
+[VulnerabilityType Other]
+Denial of Service
+
+------------------------------------------
+
+[Vendor of the product]
+openlink
+
+------------------------------------------
+
+[Affected Product Code Base]
+virtuoso-opensource - 7.2.12
+
+------------------------------------------
+
+[Affected Component]
+virtuoso server
+
+------------------------------------------
+
+[Attack Type Other]
+denial of service
+
+------------------------------------------
+
+[Impact Denial of Service]
+true
+
+------------------------------------------
+
+[Attack Vectors]
+SQL statements
+
+------------------------------------------
+
+[Has vendor confirmed or acknowledged the vulnerability?]
+true
+
+------------------------------------------
+
+[Discoverer]
+Jingzhou Fu of Wingtecher Lab of Tsinghua University and ShuiMuYuLin Ltd
+
+------------------------------------------
+
+
+
+And the details of each bug are as follows (the first line is the reference to the bug, and the second line is the Suggested Description):
+1.
+https://github.com/openlink/virtuoso-opensource/issues/1252
+An issue in the xte_replace_strings_with_unames component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+2.
+https://github.com/openlink/virtuoso-opensource/issues/1253
+An issue in the cv_subq_ret component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+3.
+https://github.com/openlink/virtuoso-opensource/issues/1254
+An issue in the dc_assign_copy component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+4.
+https://github.com/openlink/virtuoso-opensource/issues/1255
+An issue in the chash_array component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+5.
+https://github.com/openlink/virtuoso-opensource/issues/1256
+An issue in the qst_vec_set component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+6.
+https://github.com/openlink/virtuoso-opensource/issues/1257
+An issue in the setp_group_row component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+7.
+https://github.com/openlink/virtuoso-opensource/issues/1258
+An issue in the dfe_unit_col_loci component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+8.
+https://github.com/openlink/virtuoso-opensource/issues/1259
+An issue in the bif_name_part component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+9.
+https://github.com/openlink/virtuoso-opensource/issues/1260
+An issue in the sqlg_group_node component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+10.
+https://github.com/openlink/virtuoso-opensource/issues/1261
+An issue in the sqlo_df component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+11.
+https://github.com/openlink/virtuoso-opensource/issues/1262
+An issue in the sqlo_geo_count component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+12.
+https://github.com/openlink/virtuoso-opensource/issues/1263
+An issue in the sqlo_is_postprocess component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+13.
+https://github.com/openlink/virtuoso-opensource/issues/1264
+An issue in the sqlo_oby_exp_cols component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+14.
+https://github.com/openlink/virtuoso-opensource/issues/1265
+An issue in the sqlo_place_dfe_after component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+15.
+https://github.com/openlink/virtuoso-opensource/issues/1266
+An issue in the sqlo_place_exp component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+16.
+https://github.com/openlink/virtuoso-opensource/issues/1267
+An issue in the sqlo_union_scope component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+17.
+https://github.com/openlink/virtuoso-opensource/issues/1268
+An issue in the gpf_notice component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+18.
+https://github.com/openlink/virtuoso-opensource/issues/1269
+An issue in the stricmp component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+19.
+https://github.com/openlink/virtuoso-opensource/issues/1270
+An issue in the box_div component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+20.
+https://github.com/openlink/virtuoso-opensource/issues/1271
+An issue in the box_equal component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+21.
+https://github.com/openlink/virtuoso-opensource/issues/1272
+An issue in the dfe_unit_col_loci component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
+
+22.
+https://github.com/openlink/virtuoso-opensource/issues/1273
+An issue in the find_index_to_vector component of openlink virtuoso-opensource v7.2.12 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements. 
